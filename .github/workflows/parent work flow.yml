@@ -1,0 +1,3 @@
+name: koti
+on: 
+  workflow_dispatch
