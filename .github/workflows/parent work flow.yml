@@ -1,3 +1,10 @@
 name: koti
 on: 
   workflow_dispatch
+Jobs:
+  child work flow:
+   uses: ./.github/workflow/childworkflow.yml
+   with: 
+    param1: "this is a par1"
+    param2: "this is a par2"
+    
